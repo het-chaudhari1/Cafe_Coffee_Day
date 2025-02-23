@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+header{
+    align-items: center;
+    width: 100%;
+    color: #dbbcbc;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #371901;
+    border-radius: 0 0 15px 15px;
+    
+}
+h4{
+    font-size: 40px;
+}
+hr{
+    margin: 5px;
+    width: 20%;
+    border: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #dbbcbc;
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+.nav-li{
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 1s;
+}
+#res{
+    color: #dbbcbc;
+}
+a:hover{
+    color: #dbbcbc;
+    transition: 1s;
+}
+h1{
+    color: #371901;
+    font-size: 25px;
+}
+hr{
+    margin: 5px;
+    width: 20%;
+    border: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #dbbcbc;
+}
+#line{
+    width: 5%;
+    border: 3px;
+    border-style: solid;
+    border-color: #371901;
+}
+p{
+    font-family: poppins;
+    margin-top: 10px;
+    font-size: 20px;
+    max-width: 90%;
+    padding-bottom: 10px;
+}
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    place-self: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #c6c4c4;
+    opacity: 80%;
+    width: 25.5%;
+    border-radius: 5px;
+}
+.fields{
+    padding-left: 10px;
+    font-size: 15px;
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+}
+.log_btn{
+    margin-top: 20px;
+    width: 180px;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffff;
+    background: #371901;
+    transition: 1s;
+}
+.log_btn:hover{
+    color: #dbbcbc;
+    transition: 1s;
+}
+textarea{
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    transition: 1s;
+}
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot-ul{
+    text-align: center;
+    padding: 20px;
+    height: auto;
+    background-color: #110800;
+}
+.foot-li{
+    list-style-type: none;
+    font-family: poppins;
+    font-size: 15px;
+    color: #ffff;
+    font-weight: bold; 
+}
